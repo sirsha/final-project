@@ -1,4 +1,4 @@
-
+#Just modifyting 
 ### Building mysql docker image 
 ```docker build -t my_db -f Dockerfile_mysql . ```
 
