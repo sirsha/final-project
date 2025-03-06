@@ -11,6 +11,7 @@ spec:
     - protocol: TCP
       name: webapp
       port: 81
+      targetport: 81
   Selector:
       app: employees
   
