@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: app
+  namespace: final
+  labels:
+    app: employees
+spec:
+  type: Loadbalancer
+  ports:
+    - protocol: TCP
+      name: webapp
+      port: 81
+  Selector:
+      app: employees
+  
